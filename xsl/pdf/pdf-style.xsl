@@ -22,11 +22,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 version='1.0'>
-
   <!-- Use nice graphics for admonitions -->
     <xsl:param name="admon.graphics">'1'</xsl:param>
-    <xsl:param name="admon.graphics.path">docs/zips/cache/docbook-xsl/images/</xsl:param>
-    <xsl:param name="draft.watermark.image" select="'docs/zips/cache/docbook-xsl/images/draft.png'"/>
+    <xsl:param name="admon.graphics.path">docs/books/zoeeydoc/images/</xsl:param>
+    <xsl:param name="draft.watermark.image" select="'docs/books/zoeeydoc/images/draft.png'"/>
     <xsl:param name="paper.type" select="'A4'"/>
   
     <xsl:param name="page.margin.top" select="'1cm'"/>
@@ -190,11 +189,11 @@
     <xsl:param name="l10n.gentext.default.language">zh_cn</xsl:param>
     <xsl:param name="l10n.gentext.language">zh_cn</xsl:param>
 
-  <!-- Page Layout :: Simplified Chinese Fonts -->
-    <xsl:param name="body.font.family">'Georgia','Song'</xsl:param>
-    <xsl:param name="title.font.family">'Georgia','Heiti'</xsl:param>
-    <xsl:param name="monospace.font.family">'Georgia','FangSong'</xsl:param>
-    <xsl:param name="sans.font.family">'Georgia','FangSong'</xsl:param>
+<!-- Page Layout :: Simplified Chinese Fonts -->
+    <xsl:param name="body.font.family">'Song','Song'</xsl:param>
+    <xsl:param name="title.font.family">'Song','Heiti'</xsl:param>
+    <xsl:param name="monospace.font.family">'Song','FangSong'</xsl:param>
+    <xsl:param name="sans.font.family">'Song','FangSong'</xsl:param>
     <xsl:param name="body.font.master">9</xsl:param>
     <xsl:param name="body.font.size">9pt</xsl:param>
     <xsl:param name="footnote.font.size">0.8em</xsl:param>

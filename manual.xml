@@ -134,8 +134,8 @@ chm.target[css] = "docs/target/zoeeydoc/chm/css"</programlisting>
     <warning>
       <para>hhc.exe的路径为绝对路径，请依照自身的情况进行修改。</para>
 
-      <para>下载 hhc： <link xlink:href="???">Microsoft HTML Help
-      Downloads</link></para>
+      <para>下载 hhc： <link
+      xlink:href="http://msdn.microsoft.com/en-us/library/ms669985%28v=vs.85%29.aspx">http://msdn.microsoft.com/en-us/library/ms669985%28v=vs.85%29.aspx</link></para>
     </warning>
 
     <example>
